@@ -52,7 +52,7 @@
         keys = <&foostan_corne_5col_layout_keys>;
     };
 };
-
+/ {
         behaviors {
             //                 Key positions
             //       0  1  2  3  4    5  6  7  8  9
