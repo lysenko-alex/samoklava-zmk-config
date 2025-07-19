@@ -42,7 +42,6 @@
     transform = <&five_column_transform>;
     kscan = <&kscan0>;
     display-name = "5 Column";
-    keys = <&foostan_corne_5col_layout_keys>;
 };
 
 / {
