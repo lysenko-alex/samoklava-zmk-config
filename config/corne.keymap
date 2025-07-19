@@ -38,18 +38,17 @@
     tapping-term-ms = <180>;
 };
 
+&foostan_corne_5col_layout {
+    transform = <&five_column_transform>;
+    kscan = <&kscan0>;
+    display-name = "5 Column";
+    keys = <&foostan_corne_5col_layout_keys>;
+};
+
 / {
     chosen {
         zmk,matrix_transform = &five_column_transform;
         zmk,physical_layout = &foostan_corne_5col_layout;
-    };
-
-    foostan_corne_5col_layout: foostan_corne_5col_layout {
-        compatible = "zmk,physical-layout";
-        display-name = "5 Column";
-        transform = <&five_column_transform>;
-        kscan = <&kscan0>;
-        keys = <&foostan_corne_5col_layout_keys>;
     };
 };
 / {
